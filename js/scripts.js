@@ -16,12 +16,10 @@ Play.prototype.diceRoll = function() {
 
 Play.prototype.fullTurn = function(roll) {
   if (roll === 1) {
-    Play.currentScore === 0;
-    console.log(Play.currentScore + "if");
+    this.currentScore === 0;
   }
   else {
-    Play.currentScore += roll;
-    console.log(Play.currentScore + "else");
+    this.currentScore += roll;
   }
 }
 
